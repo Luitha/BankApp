@@ -21,6 +21,9 @@ public class BankingApp {
                 case 2:
                     account.deposit();
                     break;
+                case 3:
+                    account.withdrawal();
+                    break;
             }
         } while (inputNumber != 4);
 

@@ -30,6 +30,14 @@ public class AccountDetails {
         System.out.println("Jaką kwotę wpłacasz? ");
         long pieniadze;
         pieniadze = scanner.nextLong();
-        balance = pieniadze + balance;
+        balance = balance + pieniadze;
+    }
+
+    public void withdrawal() {
+        System.out.println("Jaką kwotę wypłacasz? ");
+        long pieniadze;
+        pieniadze = scanner.nextLong();
+        balance = balance - pieniadze;
+
     }
 }
