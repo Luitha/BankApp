@@ -33,6 +33,14 @@ public class AccountDetails {
         balance = balance + pieniadze;
     }
 
+    public long getBalance() {
+        return balance;
+    }
+
+    public void setBalance(long balance) {
+        this.balance = balance;
+    }
+
     public void withdrawal() {
         System.out.println("Jaką kwotę wypłacasz? ");
         long pieniadze;
