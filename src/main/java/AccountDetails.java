@@ -25,4 +25,11 @@ public class AccountDetails {
         System.out.println("Provide your account balance ");
         balance = scanner.nextLong();
     }
+
+    public void deposit() {
+        System.out.println("Jaką kwotę wpłacasz? ");
+        long pieniadze;
+        pieniadze = scanner.nextLong();
+        balance = pieniadze + balance;
+    }
 }
